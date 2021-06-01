@@ -146,3 +146,57 @@ footer{
     word-spacing: 2px;
     text-transform: capitalize;
 }
+
+/*---- CONTACT PAGE ----*/
+
+.contact-page {
+    text-align: center;
+    margin: 50px;
+}
+
+.contact-info {
+    margin: 20px;
+}
+
+.contact-info h1, p {
+    padding-bottom: 10px;
+}
+
+.contact-form {
+    width: 50%;
+    display: inline-block;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.text-box {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 40%;
+    background-color: darkgrey;
+    color: white;
+    /*padding: 14px 20px;*/
+    /*margin: 8px 0;*/
+    /*border: none;*/
+    /*border-radius: 4px;*/
+}
+
+input[type=submit]:hover {
+    background-color: #17252A;
+}
