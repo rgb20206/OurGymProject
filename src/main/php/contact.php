@@ -11,7 +11,7 @@ include("constants/constants.php");
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>OurGym | Contact Us</title>
     <link rel="stylesheet" href="../resources/css/style.css">
     <link rel="icon" type="image/x-icon" href="../resources/media/dumbbell-logo-black.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -48,7 +48,7 @@ include("constants/constants.php");
         <h1>Get in touch</h1>
         <p>If you have any questions, you can also use the form below to get in contact with someone from our team:</p>
 
-        <form class="contact-form" method="" action="">
+        <form class="contact-form" action="">
             <input type="text" name="name" placeholder="Full name">
             <input type="email" name="mail" placeholder="Your e-mail">
             <input type="text" name="subject" placeholder="Subject">
@@ -76,10 +76,6 @@ include("constants/constants.php");
         <p>copyright &copy;2020 Jenna, Arran, Dom :)</p>
     </div>
 </footer>
-
-
-
-</div>
 
 </body>
 </html>
