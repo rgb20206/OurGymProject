@@ -149,13 +149,25 @@ footer{
 
 /*---- CONTACT PAGE ----*/
 
+
+.section-contact{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    background-image: url(../media/background-4.png);
+    background-position: center;
+    background-size: cover;
+}
+
 .contact-page {
     text-align: center;
     margin: 50px;
+    color: white;
 }
 
 .contact-info {
     margin: 20px;
+    background-size: 50px;
 }
 
 .contact-info h1, p {
@@ -187,16 +199,17 @@ input {
     box-sizing: border-box;
 }
 
-input[type=submit] {
+.btn {
     width: 40%;
-    background-color: darkgrey;
+    background-color: #3799fb;
+
     color: white;
-    /*padding: 14px 20px;*/
-    /*margin: 8px 0;*/
-    /*border: none;*/
-    /*border-radius: 4px;*/
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
 }
 
-input[type=submit]:hover {
-    background-color: #17252A;
+.btn:hover {
+    background-color: #95999d;
 }

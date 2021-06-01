@@ -18,11 +18,13 @@ include("constants/constants.php");
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,100;1,200;1,300;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body style="background-color:grey" >
-
+<body>
+<section class="section-contact">
 <?php include("universal-header.php");  ?>
 
 <!--This contact form will use the php/mail script to send an email to my/our email address-->
+<!--    I'll add that functionality in the next release-->
+
 
 <div class="contact-page">
 
@@ -46,17 +48,16 @@ include("constants/constants.php");
         <h1>Get in touch</h1>
         <p>If you have any questions, you can also use the form below to get in contact with someone from our team:</p>
 
-        <form class="contact-form" method="post" action="">
+        <form class="contact-form" method="" action="">
             <input type="text" name="name" placeholder="Full name">
             <input type="email" name="mail" placeholder="Your e-mail">
             <input type="text" name="subject" placeholder="Subject">
             <textarea class="text-box" name="message" rows="8" cols="80" placeholder="Enter message here"></textarea>
-            <!--            <button type="submit" name="submit">Send Message</button>-->
-            <input type="submit" name="submit" value="Send Message">
+            <input class="btn" type="submit" name="submit" value="Send Message">
         </form>
     </div>
 </div>
-
+</section>
 
 <!---- FOOTER ---->
 
