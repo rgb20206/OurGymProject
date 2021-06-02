@@ -160,12 +160,12 @@ footer{
 
 .contact-page {
     text-align: center;
-    margin: 50px;
+    padding: 20px;
     color: white;
 }
 
 .contact-info {
-    margin: 20px;
+    padding: 10px;
     background-size: 50px;
 }
 
