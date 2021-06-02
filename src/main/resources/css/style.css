@@ -149,7 +149,6 @@ footer{
 
 /*---- CONTACT PAGE ----*/
 
-
 .section-contact{
     min-height: 100vh;
     position: relative;
@@ -213,10 +212,10 @@ input {
 .btn:hover {
     background-color: #95999d;
 }
+
 /*---- ABOUT PAGE ----*/
 
-
-.about{
+.section-about{
     min-height: 100vh;
     position: relative;
     width: 100%;
@@ -224,20 +223,32 @@ input {
     background-position: center;
     background-size: cover;
 }
-.about-page {
+
+.about h1{
     text-align: center;
-    margin: 50px;
+    padding: 10px;
     color: white;
-}
-.about-title{
     font-size: 60px;
 }
-.about-statement {
-    width: 50%;
-    background-position: center;
-    display: inline-block;
+
+.about p{
     text-align: center;
+    color: white;
 }
-.about-fun-facts{
+.about h3{
+    text-align: center;
+    padding: 25px 0 10px;
+    color: white;
     font-size: 30px;
+}
+
+.about ul {
+    text-align: center;
+    color: white;
+}
+
+.about ul li{
+    text-align: center;
+    color: white;
+    padding: 5px;
 }
