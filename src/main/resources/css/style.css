@@ -213,3 +213,31 @@ input {
 .btn:hover {
     background-color: #95999d;
 }
+/*---- ABOUT PAGE ----*/
+
+
+.about{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    background-image: url(../media/background-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.about-page {
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+.about-title{
+    font-size: 60px;
+}
+.about-statement {
+    width: 50%;
+    background-position: center;
+    display: inline-block;
+    text-align: center;
+}
+.about-fun-facts{
+    font-size: 30px;
+}

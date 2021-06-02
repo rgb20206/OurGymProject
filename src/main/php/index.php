@@ -30,7 +30,7 @@
 
         <div class="introduction">
             <h1>Welcome to OurGym</h1>
-            <p>Looking to start working out and keeping fit! Well look no further and join the best gym in the UK,
+            <p>Looking to start working out and keeping fit? Well look no further and join the best gym in the UK,
                 <br>OURGYM!</p>
         </div>
     </section>
