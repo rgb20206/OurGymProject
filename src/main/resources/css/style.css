@@ -149,7 +149,6 @@ footer{
 
 /*---- CONTACT PAGE ----*/
 
-
 .section-contact{
     min-height: 100vh;
     position: relative;
@@ -212,4 +211,44 @@ input {
 
 .btn:hover {
     background-color: #95999d;
+}
+
+/*---- ABOUT PAGE ----*/
+
+.section-about{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    background-image: url(../media/background-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about h1{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 60px;
+}
+
+.about p{
+    text-align: center;
+    color: white;
+}
+.about h3{
+    text-align: center;
+    padding: 25px 0 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.about ul {
+    text-align: center;
+    color: white;
+}
+
+.about ul li{
+    text-align: center;
+    color: white;
+    padding: 5px;
 }
