@@ -9,6 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OurGym | Home</title>
     <link rel="stylesheet" href="../resources/css/style.css">
+    <link rel="icon" type="image/x-icon" href="../resources/media/dumbbell-logo-black.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,100;1,200;1,300;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <section class="main-header">
@@ -28,6 +32,9 @@
             <h1>Welcome to OurGym</h1>
             <p>Looking to start working out and keeping fit? Well look no further and join the best gym in the UK,
                 <br>OURGYM!</p>
+            <h2>Facilities</h2>
+            <br>
+            <h4>Check out our amazing facilities <a href="<?=FACILITIES ?>">Here</a></h4>
         </div>
     </section>
 

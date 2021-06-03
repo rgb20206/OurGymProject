@@ -11,7 +11,7 @@ include("constants/constants.php");
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>OurGym | About </title>
+    <title>OurGym | Our Plans </title>
     <link rel="stylesheet" href="../resources/css/style.css">
     <link rel="icon" type="image/x-icon" href="../resources/media/dumbbell-logo-black.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,34 +19,42 @@ include("constants/constants.php");
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<section class="section-about">
+<section class="section-plans">
     <?php include("universal-header.php");  ?>
-    <div class="about">
-        <div>
-            <h1>About OurGym</h1>
-            <p>From low cost flexible memberships and 24 hour opening times,
-                <br>to quality gym equipment and classes included, there are loads of reasons why
-                <br>OurGym is one of the top rated in the UK.
-                <br>Our mission is to help people achieve their fitness goals. Come and join us today.
-            </p>
-        </div>
-        <div>
-            <h3>Learn a bit more about us in these 5 fun facts below!</h3>
-            <ul class="bullet-point">
-                <li>We were voted number 1 gym in the UK in 2014</li>
-                <li>We were the first gym in the UK to introduce anti-gravity yoga</li>
-                <li>We offer over 20 different classes, more than 80% of leading gyms in England</li>
-                <li>Our most popular class is our 'pop spin class' in which we have over 200 weekly participants </li>
-                <li>We offer online classes as part of your membership</li>
-            </ul>
-        </div>
 
-<!--------      Adding links to the Facilities Page     -------->
-        <div>
-            <h3>Facilities</h3>
-            <p>Have a look <a href="<?=FACILITIES ?>">Here</a> at our Amazing Facilities </p>
-        </div>
+    <h1>Learn about our plans here!</h1>
 
+    <div class="plans-block">
+        <img src="../resources/media/plans-image-bronze.jpg" alt="Bronze">
+        <h3>Bronze</h3>
+        <ul>
+            <li>Our bronze plan is the cheapest!</li>
+            <li>Unlimited access to the gym</li>
+        </ul>
+    </div>
+
+    <div class="plans-block">
+        <img src="../resources/media/plans-image-silver.jpg" alt="silver">
+        <h3>Silver</h3>
+        <ul>
+            <li>Our silver plan is the best for value!</li>
+            <li>Get free access to the swimming pool</li>
+            <li>1 free day pass per month for a friend</li>
+            <li>Free personal trainer sessions twice a month</li>
+        </ul>
+    </div>
+
+    <div class="plans-block">
+        <img src="../resources/media/plans-image-gold.png" alt="gold">
+        <h3>Gold</h3>
+        <ul>
+            <li>Our gold plan is the most exclusive!</li>
+            <li>It includes VIP classes and access to the VIP locker/changing lounge</li>
+            <li>There are perks such as limited access times</li>
+            <li>Free personal trainer sessions whenever you like</li>
+            <li>Discounts to swimming lessons</li>
+            <li>2 free day passes for a friend per something</li>
+        </ul>
     </div>
 </section>
 
