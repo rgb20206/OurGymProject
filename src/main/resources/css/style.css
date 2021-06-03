@@ -258,37 +258,48 @@ input {
     min-height: 100vh;
     position: relative;
     width: 100%;
-    background-image: url(../media/background-3.png);
+    background-image: url(../media/plans-background.jpg);
     background-position: center;
     background-size: cover;
 }
-.plans-header{
-    text-align: center;
-    padding: 10px;
+.section-plans h1{
+    padding: 15px;
     color: white;
     font-size: 50px;
+    text-align: center;
 }
-.Width {
-    margin: auto;
-    width: 50%;
+
+.plans-block{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70%;
 }
-.images::after {
-    content: "";
-    clear: both;
-    display: table;
+
+.plans-block img{
+    border-radius: 25px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
 }
-.plans-image-1{
-    width: 500px;
+
+.plans-block h3{
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: black;
 }
-.plans-image-2{
-    width: 500px;
-}
-.plans-image-3{
-    width:500px;
-}
-.plans-description{
+
+.plans-block ul li{
+    color: white;
+    padding:5px;
     font-size: 20px;
+    margin-left: 30px;
 }
+
 /*---- CLASSES PAGE ----*/
 
 .section-classes{

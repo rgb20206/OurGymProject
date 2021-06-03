@@ -20,54 +20,44 @@ include("constants/constants.php");
 </head>
 <body>
 <section class="section-plans">
-<?php include("universal-header.php");  ?>
-    <div class="plans-header">
-        <h1>Learn about our plans here!</h1>
-        <br
+    <?php include("universal-header.php");  ?>
+
+    <h1>Learn about our plans here!</h1>
+
+    <div class="plans-block">
+        <img src="../resources/media/plans-image-bronze.jpg" alt="Bronze">
+        <h3>Bronze</h3>
+        <ul>
+            <li>Our bronze plan is the cheapest!</li>
+            <li>Unlimited access to the gym</li>
+        </ul>
     </div>
-    <div>
-        <div class="images">
-            <div class="Width">
-                <img src="https://images.theconversation.com/files/339674/original/file-20200604-130929-iutdtd.jpg?ixlib=rb-1.1.0&rect=8%2C0%2C5455%2C3637&q=45&auto=format&w=496&fit=clip" alt="Bronze" class="plans-image-1">
-            <p>Bronze</p>
-                <div class="plans-description">
-                    <ul>
-                        <li>Our bronze plan is the cheapest!</li>
-                        <li>Unlimited access to the gym</li>
-                        <br>
-                    </ul>
-                </div>
-            </div>
-            <div class="Width">
-                <img src="https://static01.nyt.com/images/2020/01/06/well/04run-gym/04run-gym-superJumbo.jpg" alt="Silver" class="plans-image-2" >
-            <p>Sliver</p>
-                <div class="plans-description">
-                    <ul>
-                    <li>Our silver plan is the best for value!</li>
-                    <li>Get free access to the swimming pool</li>
-                    <li>1 free day pass per month for a friend</li>
-                    <li>Free personal trainer sessions twice a month</li>
-                        <br>
-                    </ul>
-                </div>
-            </div>
-            <div class="Width">
-                <img src="https://specials-images.forbesimg.com/imageserve/5f298efbe2252631e7028543/960x0.jpg?fit=scale" alt="Gold" class="plans-image-3" >
-            <p>Gold</p>
-                <div class="plans-description">
-                    <ul>
-                <li> Our gold plan is the most exclusive!</li>
-                <li>It includes VIP classes and access to the VIP locker/changing lounge</li>
-                <li>There are perks such as limited access times</li>
-                <li>Free personal trainer sessions whenever you like</li>
-                <li>Discounts to swimming lessons</li>
-                <li>2 free day passes for a friend per something</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+
+    <div class="plans-block">
+        <img src="../resources/media/plans-image-silver.jpg" alt="silver">
+        <h3>Silver</h3>
+        <ul>
+            <li>Our silver plan is the best for value!</li>
+            <li>Get free access to the swimming pool</li>
+            <li>1 free day pass per month for a friend</li>
+            <li>Free personal trainer sessions twice a month</li>
+        </ul>
+    </div>
+
+    <div class="plans-block">
+        <img src="../resources/media/plans-image-gold.png" alt="gold">
+        <h3>Gold</h3>
+        <ul>
+            <li>Our gold plan is the most exclusive!</li>
+            <li>It includes VIP classes and access to the VIP locker/changing lounge</li>
+            <li>There are perks such as limited access times</li>
+            <li>Free personal trainer sessions whenever you like</li>
+            <li>Discounts to swimming lessons</li>
+            <li>2 free day passes for a friend per something</li>
+        </ul>
     </div>
 </section>
+
 <!--Footer-->
 <footer>
     <div class="footer-text">
