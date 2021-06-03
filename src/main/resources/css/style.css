@@ -252,3 +252,40 @@ input {
     color: white;
     padding: 5px;
 }
+/*---- PLANS PAGE ----*/
+
+.section-plans{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    background-image: url(../media/background-3.png);
+    background-position: center;
+    background-size: cover;
+}
+.plans-header{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 50px;
+}
+.Width {
+    margin: auto;
+    width: 50%;
+}
+.images::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.plans-image-1{
+    width: 500px;
+}
+.plans-image-2{
+    width: 500px;
+}
+.plans-image-3{
+    width:500px;
+}
+.plans-description{
+    font-size: 20px;
+}
