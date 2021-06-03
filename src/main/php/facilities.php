@@ -99,4 +99,5 @@ include("constants/constants.php");
     </div>
 </footer>
 
+</body>
 </html>

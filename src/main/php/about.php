@@ -40,6 +40,13 @@ include("constants/constants.php");
                 <li>We offer online classes as part of your membership</li>
             </ul>
         </div>
+
+<!--------      Adding links to the Facilities Page     -------->
+        <div>
+            <h3>Facilities</h3>
+            <p>Have a look <a href="<?=FACILITIES ?>">Here</a> at our Amazing Facilities </p>
+        </div>
+
     </div>
 </section>
 

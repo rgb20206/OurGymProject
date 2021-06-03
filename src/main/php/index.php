@@ -32,6 +32,9 @@
             <h1>Welcome to OurGym</h1>
             <p>Looking to start working out and keeping fit? Well look no further and join the best gym in the UK,
                 <br>OURGYM!</p>
+            <h2>Facilities</h2>
+            <br>
+            <h4>Check out our amazing facilities <a href="<?=FACILITIES ?>">Here</a></h4>
         </div>
     </section>
 
