@@ -258,7 +258,7 @@ input {
     min-height: 100vh;
     position: relative;
     width: 100%;
-    background-image: url(https://static01.nyt.com/images/2020/01/06/well/04run-gym/04run-gym-superJumbo.jpg);
+    background-image: url(../media/plans-background.jpg);
     background-position: center;
     background-size: cover;
 }

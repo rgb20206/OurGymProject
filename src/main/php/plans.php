@@ -25,7 +25,7 @@ include("constants/constants.php");
     <h1>Learn about our plans here!</h1>
 
     <div class="plans-block">
-        <img src="https://images.theconversation.com/files/339674/original/file-20200604-130929-iutdtd.jpg?ixlib=rb-1.1.0&rect=8%2C0%2C5455%2C3637&q=45&auto=format&w=496&fit=clip" alt="Bronze">
+        <img src="../resources/media/plans-image-bronze.jpg" alt="Bronze">
         <h3>Bronze</h3>
         <ul>
             <li>Our bronze plan is the cheapest!</li>
@@ -34,7 +34,7 @@ include("constants/constants.php");
     </div>
 
     <div class="plans-block">
-        <img src="../resources/media/background-3.png" alt="silver">
+        <img src="../resources/media/plans-image-silver.jpg" alt="silver">
         <h3>Silver</h3>
         <ul>
             <li>Our silver plan is the best for value!</li>
@@ -45,7 +45,7 @@ include("constants/constants.php");
     </div>
 
     <div class="plans-block">
-        <img src="https://specials-images.forbesimg.com/imageserve/5f298efbe2252631e7028543/960x0.jpg?fit=scale" alt="gold">
+        <img src="../resources/media/plans-image-gold.png" alt="gold">
         <h3>Gold</h3>
         <ul>
             <li>Our gold plan is the most exclusive!</li>
