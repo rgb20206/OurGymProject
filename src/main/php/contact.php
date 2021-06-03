@@ -34,7 +34,7 @@ include("constants/constants.php");
 
                 <p>Address:<br>123 Barbell Road<br>Strong Street<br>Gain's Town</p>
 
-                <p>If you are interested in booking one of our classes, please see our <a href="#">Classes Page</a> to see our availability</p>
+                <p>If you are interested in booking one of our classes, please see our <a href="<?=CLASSES ?>">Classes Page</a> to see our availability.</p>
 
             </div>
 
