@@ -343,17 +343,12 @@ input {
     background-size: cover;
 }
 
-.image {
-    position: relative;
-    width: 400px;
-}
-
-.image__img {
+.box-image{
     display: block;
     width: 100%;
 }
 
-.image__overlay {
+.box-text {
     position: absolute;
     top: 0;
     left: 0;
@@ -369,16 +364,16 @@ input {
     transition: opacity 0.25s;
 }
 
-.image__overlay:hover {
+.box-text:hover {
     opacity: 1;
 }
 
-.image__title {
+.box-title {
     font-size: 2em;
     font-weight: bold;
 }
 
-.image__description {
+.box-description {
     font-size: 1em;
     margin-top: 0.25em;
 }

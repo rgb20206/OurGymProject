@@ -26,26 +26,26 @@ include("constants/constants.php");
     <div class="row">
 
         <div class="column">
-            <img class="image__img" src="../resources/media/cardio.jpg" alt="cardio-room">
-            <div class="image__overlay">
-                <div class="image__title">Cardio</div>
-                <p class="image__description">A modern, well equipped cardio suite!</p>
+            <img class="box-image" src="../resources/media/cardio.jpg" alt="cardio-room">
+            <div class="box-text">
+                <div class="box-title">Cardio</div>
+                <p class="box-description">A modern, well equipped cardio suite!</p>
             </div>
         </div>
 
         <div class="column">
-            <img class="image__img" src="../resources/media/swimming.jpg" alt="swimming-pool">
-            <div class="image__overlay">
-                <div class="image__title">Swimming Pool</div>
-                <p class="image__description">25m Pool - Adult's & Kids lessons, free-swimming & more!</p>
+            <img class="box-image" src="../resources/media/swimming.jpg" alt="swimming-pool">
+            <div class="box-text">
+                <div class="box-title">Swimming Pool</div>
+                <p class="box-description">25m Pool - Adult's & Kids lessons, free-swimming & more!</p>
             </div>
         </div>
 
         <div class="column">
-            <img class="image__img" src="../resources/media/weights.jpg" alt="weights-room">
-            <div class="image__overlay">
-                <div class="image__title">Weights</div>
-                <p class="image__description">Full range of equipment. Barbells, Kettlebells, etc.</p>
+            <img class="box-image" src="../resources/media/weights.jpg" alt="weights-room">
+            <div class="box-text">
+                <div class="box-title">Weights</div>
+                <p class="box-description">Full range of equipment. Barbells, Kettlebells, etc.</p>
             </div>
         </div>
 
@@ -54,26 +54,26 @@ include("constants/constants.php");
     <div class="row">
 
         <div class="column">
-            <img class="image__img" src="../resources/media/climbing.jpg" alt="climbing-wall">
-            <div class="image__overlay">
-                <div class="image__title">Climbing Wall</div>
-                <p class="image__description">No ropes or equipment required!</p>
+            <img class="box-image" src="../resources/media/climbing.jpg" alt="climbing-wall">
+            <div class="box-text">
+                <div class="box-title">Climbing Wall</div>
+                <p class="box-description">No ropes or equipment required!</p>
             </div>
         </div>
 
         <div class="column">
-            <img class="image__img" src="../resources/media/courts.jpg" alt="indoor-courts">
-            <div class="image__overlay">
-                <div class="image__title">Indoor Courts</div>
-                <p class="image__description">Multiple indoor courts available for hire/classes</p>
+            <img class="box-image" src="../resources/media/courts.jpg" alt="indoor-courts">
+            <div class="box-text">
+                <div class="box-title">Indoor Courts</div>
+                <p class="box-description">Multiple indoor courts available for hire/classes</p>
             </div>
         </div>
 
         <div class="column">
-            <img class="image__img" src="../resources/media/track.jpg" alt="track">
-            <div class="image__overlay">
-                <div class="image__title">Track</div>
-                <p class="image__description">Full-size 400m asphalt track. Please email for availability</p>
+            <img class="box-image" src="../resources/media/track.jpg" alt="track">
+            <div class="box-text">
+                <div class="box-title">Track</div>
+                <p class="box-description">Full-size 400m asphalt track. Please email for availability</p>
             </div>
         </div>
 
