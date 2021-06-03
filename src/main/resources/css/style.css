@@ -252,3 +252,82 @@ input {
     color: white;
     padding: 5px;
 }
+
+/*---- CLASSES PAGE ----*/
+
+.section-classes{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../media/background-6.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.classes{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.classes h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.classes p{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.classes-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.yoga-column{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../media/yoga.png);
+    background-position: center;
+    background-size: cover;
+    flex-basis: 32%;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.hiit-column{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../media/hiit.png);
+    background-position: center;
+    background-size: cover;
+    flex-basis: 32%;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.zumba-column{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../media/zumba.png);
+    background-position: center;
+    background-size: cover;
+    flex-basis: 32%;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.classes h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 30px;
+    color: white;
+}
